@@ -10,4 +10,7 @@ elif op == "-":
     result = a-b
 elif op == "*":
     result = a*b
-print("Result: {:.2f}".format(result))
+if not result:
+    print("Invalid input.")
+else:
+    print("Result: {:.2f}".format(result))
