@@ -1,6 +1,6 @@
-a = int(input("Enter the first number:"))
+a = float(input("Enter the first number:"))
 op = input("Input the operation:")
-b = int(input("Enter the second number:"))
+b = float(input("Enter the second number:"))
 result = None
 if op == "+":
     result = a+b
